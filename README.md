@@ -25,10 +25,20 @@ Se aplicó un algoritmo genético para optimizar [problema de la parte B].
 ---
 
 ## Parte C
-(Explica aquí brevemente tu parte C)
+## Parte C: Neuroevolución
 
-Ejemplo:
-Se utilizó un enfoque evolutivo para resolver [problema de la parte C].
+En esta sección se implementa un algoritmo genético aplicado a la neuroevolución, cuyo objetivo es encontrar automáticamente la mejor arquitectura de una red neuronal.
+
+El algoritmo trabaja con una población de modelos, donde cada individuo representa una red neuronal con diferentes configuraciones, tales como:
+- Número de capas
+- Número de neuronas
+- Función de activación
+
+A través de procesos evolutivos como selección, cruzamiento y mutación, el algoritmo optimiza progresivamente la arquitectura de la red en función de su rendimiento.
+
+La evaluación de cada individuo se realiza utilizando el accuracy como métrica, empleando el dataset Iris y redes neuronales construidas con TensorFlow/Keras.
+
+Como resultado, el algoritmo es capaz de encontrar configuraciones eficientes de redes neuronales sin necesidad de definir manualmente su estructura.
 
 ---
 
