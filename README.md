@@ -46,4 +46,5 @@ Se utilizó un enfoque evolutivo para resolver [problema de la parte C].
 ---
 
 ## Autor
+Quispe Caceres Juan Efrain 
 Quispe Quispe Shamely Angeles
