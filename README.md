@@ -68,5 +68,6 @@ Como resultado, el algoritmo es capaz de encontrar configuraciones eficientes de
 ---
 
 ## Autor
+- Almanza Mamani Edith Nayely 
 - Quispe Caceres Juan Efraín  
 - Quispe Quispe Shamely Angeles
