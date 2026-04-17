@@ -1,7 +1,7 @@
 # Algoritmos-Geneticos-ML
 
 ## Descripción
-Este proyecto presenta la implementación de algoritmos genéticos aplicados a diferentes problemas de optimización en Machine Learning.
+Este proyecto presenta la implementación de algoritmos genéticos aplicados a diferentes problemas de optimización en Machine Learning. Se abordan tres enfoques principales: selección de características, optimización de hiperparámetros y neuroevolución.
 
 ---
 
@@ -14,17 +14,26 @@ Se implementó un algoritmo genético para seleccionar las características más
   - Reducción de 30 a 11 variables
   - Accuracy ≈ 0.97
 
----
-
-## Parte B
-(Explica aquí brevemente tu parte B)
-
-Ejemplo:
-Se aplicó un algoritmo genético para optimizar [problema de la parte B].
+Este enfoque permite reducir la dimensionalidad del problema manteniendo un alto rendimiento del modelo.
 
 ---
 
-## Parte C
+## Parte B: Optimización de Hiperparámetros
+Se aplicó un algoritmo genético para optimizar automáticamente los hiperparámetros de un modelo Random Forest.
+
+Cada individuo representa una combinación de parámetros como:
+- Número de árboles (n_estimators)
+- Profundidad máxima (max_depth)
+- Muestras mínimas para dividir (min_samples_split)
+- Muestras mínimas por hoja (min_samples_leaf)
+- Número de características (max_features)
+
+El algoritmo evalúa cada combinación utilizando validación cruzada y selecciona las configuraciones con mejor accuracy.
+
+Este enfoque permite encontrar configuraciones óptimas sin necesidad de realizar una búsqueda manual exhaustiva.
+
+---
+
 ## Parte C: Neuroevolución
 
 En esta sección se implementa un algoritmo genético aplicado a la neuroevolución, cuyo objetivo es encontrar automáticamente la mejor arquitectura de una red neuronal.
@@ -47,14 +56,17 @@ Como resultado, el algoritmo es capaz de encontrar configuraciones eficientes de
 - NumPy
 - Scikit-learn
 - Matplotlib
+- TensorFlow / Keras
 
+---
 
 ## Cómo ejecutar
 1. Abrir los archivos en Google Colab o Jupyter Notebook
-2. Ejecutar las celdas
+2. Ejecutar todas las celdas
+3. Analizar los resultados mostrados en consola y gráficas
 
 ---
 
 ## Autor
-Quispe Caceres Juan Efrain 
-Quispe Quispe Shamely Angeles
+- Quispe Caceres Juan Efraín  
+- Quispe Quispe Shamely Angeles
